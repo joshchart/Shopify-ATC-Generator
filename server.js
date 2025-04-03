@@ -64,7 +64,7 @@ async function processProduct(link, message) {
         .setTimestamp()
         .setFooter({
           text: "Developed by joshh",
-          iconURL: "https://cdn.discordapp.com/avatars/172202026309124096/67d2f81cfd363ab7c2b7082653f1f2f3.webp?size=240"
+          iconURL: "https://cdn.discordapp.com/avatars/172202026309124096/b19ab24d77e7994bbaf95dff7a96fc82.webp?size=100"
         });
 
       // Add variant links to our embed
@@ -122,7 +122,7 @@ async function processCollection(link, message) {
       .setTimestamp()
       .setFooter({
         text: "Developed by joshh",
-        iconURL: "https://cdn.discordapp.com/avatars/172202026309124096/67d2f81cfd363ab7c2b7082653f1f2f3.webp?size=240"
+        iconURL: "https://cdn.discordapp.com/avatars/172202026309124096/b19ab24d77e7994bbaf95dff7a96fc82.webp?size=100"
       });
 
     // Add products to the embed (limit to first 25 to avoid Discord limitations)
