@@ -54,7 +54,7 @@ async function processProduct(link, message) {
 
       // Create our embed
       const exampleEmbed = new EmbedBuilder()
-        .setColor("#D20069")
+        .setColor("#2E6F40")
         .setTitle(productname)
         .setURL(link)
         .setDescription(
@@ -115,7 +115,7 @@ async function processCollection(link, message) {
 
     // Create a message to display the found products
     const collectionEmbed = new EmbedBuilder()
-      .setColor("#D20069")
+      .setColor("#2E6F40")
       .setTitle("Collection Products")
       .setURL(link)
       .setDescription(`Found ${products.length} products in this collection. Use the number to get ATC links.`)
